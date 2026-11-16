@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Animais</title>
+
+    <!-- Ligação com o CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🐾 Galeria de Animais</h1>
+        <p>Conheça alguns animais incríveis!</p>
+    </header>
+
+    <main class="animais">
+
+        <!-- Animal 1 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=600&q=80" 
+                 alt="Leão">
+
+            <h2>Leão 🦁</h2>
+
+            <button onclick="mostrarCuriosidade('leao')">
+                Ver curiosidade
+            </button>
+
+            <p id="leao" class="curiosidade"></p>
+        </div>
+
+
+        <!-- Animal 2 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516934024742-b461fba47600?auto=format&fit=crop&w=600&q=80" 
+                 alt="Lobo">
+
+            <h2>Lobo 🐺</h2>
+
+            <button onclick="mostrarCuriosidade('lobo')">
+                Ver curiosidade
+            </button>
+
+            <p id="lobo" class="curiosidade"></p>
+        </div>
+
+
+        <!-- Animal 3 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=600&q=80" 
+                 alt="Arara">
+
+            <h2>Arara 🦜</h2>
+
+            <button onclick="mostrarCuriosidade('arara')">
+                Ver curiosidade
+            </button>
+
+            <p id="arara" class="curiosidade"></p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Projeto de HTML, CSS e JavaScript 🐾</p>
+    </footer>
+
+    <!-- Ligação com o JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
